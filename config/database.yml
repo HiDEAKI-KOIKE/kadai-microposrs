@@ -53,3 +53,4 @@ production:
   pool: 5
   database: microposts_production
   username: microposts
+  password: <%= ENV['MICRO-POSTS_DATABASE_PASSWORD'] %>
